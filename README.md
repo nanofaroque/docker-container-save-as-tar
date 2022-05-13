@@ -1,8 +1,11 @@
 # docker-container-save-as-tar
 Locally, build docker image and save as tar and distribute
 
-
-Saving docker images and load
+## Build the image
+``
+docker build -t demo .
+``
+## Saving docker images and load
 
 1. List all the images
 
